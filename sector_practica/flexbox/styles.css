@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    height: 500px;
+    flex-flow: row wrap;
+    /* justify-content acomoda los elementos a lo largo del eje X */
+    justify-content: space-around;
+    /* align-items acomoda los elementos a lo largo del eje Y */
+    /* align-items: flex-start; */
+    /* Es como align-items pero para varias filas */
+    align-content: space-around;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex-container div {
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+}

@@ -1,0 +1,40 @@
+p {
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px 10px 15px 20px;
+
+    padding: 5px;
+
+    margin: 5px 10px 15px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    border: 1px solid black;
+
+    height: auto;
+    width: 50%;
+    margin: 0px 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+span {
+    font-size: 25px;
+    font-family: 'Helvetica';
+
+    border: 3px dashed black;
+    border-radius: 0px 50px 0px 50px;
+
+    background-color: greenyellow;
+
+    margin: 20px;
+
+    padding: 20px;
+}

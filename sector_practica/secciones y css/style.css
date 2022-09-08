@@ -1,0 +1,27 @@
+* {
+    background-color: aqua;
+    margin: 10px;
+    padding: auto;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.destacado {
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+
+p .destacado {
+    color: red;
+    border: 1px dashed black;
+}
+
+p.destacado {
+    color: blue;
+    font-size: 25px;
+}
