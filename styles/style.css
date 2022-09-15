@@ -1,5 +1,13 @@
 body {
     background-color: grey;
+    height: auto;
+}
+
+main {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
 }
 
 footer {
@@ -7,9 +15,4 @@ footer {
     width: 75%;
     margin: 0 auto;
     border-radius: 50%;
-}
-
-.menuNav {
-    display: flex;
-    flex-direction: row !important;
 }
