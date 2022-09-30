@@ -9,6 +9,7 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class MainComponent implements OnInit {
 
   lista = [1, 2, 3, 4, 5];
+  nombres = ['Gus', 'Agus', 'Car', 'Ali'];
   miPortfolio: any;
   listaSecu: any;
   constructor(private datosPortfolio: PortfolioService) { }

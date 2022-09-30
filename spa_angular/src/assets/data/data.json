@@ -17,5 +17,14 @@
             "anio_egreso": 2018,
             "promedio": 8.27
         }
+    },
+    "trabajos": {
+        "primero": [
+            "Nombre de la empresa: Ambiental Pehuén SA",
+            "Actividades: análisis de muestras ambientales para la detección de hidrocarburos",
+            "Ingreso: Marzo 2018",
+            "Egreso: Octubre 2018",
+            "Puesto: Analista"
+        ]
     }
 }
