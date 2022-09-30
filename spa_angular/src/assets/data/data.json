@@ -1,0 +1,21 @@
+{
+    "nombre": "Gustavo",
+    "apellido": "Kildegaard",
+    "titulo": "Licenciado en Ciencias Químicas",
+    "fotoPersonal": "assets/Gus Foto.jpg",
+    "logoEmpresa": "assets/ITAPROQ-UBA-CONICET.jpg",
+    "estudios": {
+        "secundario": {
+            "institucion": "Colegio Manuel Belgrano",
+            "anio_egreso": 2005,
+            "orientacion": "Exactas"
+        },
+        "universitario": {
+            "titulo": "Licenciatura en Ciencias Químicas",
+            "facultad": "Facultad de Ciencias Exactas y Naturales (FCEyN)",
+            "universidad": "Universidad de Buenos Aires",
+            "anio_egreso": 2018,
+            "promedio": 8.27
+        }
+    }
+}

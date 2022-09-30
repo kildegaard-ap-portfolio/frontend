@@ -1,0 +1,23 @@
+<header class="border text-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img [src]="miPortfolio.fotoPersonal" class="img rounded-circle"
+                    alt="Imagen miniatura de Gustavo Kildegaard">
+            </div>
+            <div class="col-8">
+                <h1>{{miPortfolio.nombre + " " + miPortfolio.apellido}}</h1>
+                <p>{{miPortfolio.estudios.universitario.titulo}}</p>
+                <p>{{miPortfolio.estudios.universitario.facultad}}</p>
+                <p>{{miPortfolio.estudios.universitario.universidad}}</p>
+                <br>
+                <a href="mailto:gkildegaard@di.fcen.uba.ar">Contacto</a>
+            </div>
+            <div class="col-2">
+                <img [src]="miPortfolio.logoEmpresa" class="img rounded-5" alt="Imagen miniatura de CONICET">
+            </div>
+        </div>
+    </div>
+
+</header>

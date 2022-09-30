@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: grey !important;
+    height: auto;
+}
+
+main {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+header {
+    align-items: flex-end;
+}
+
+header img {
+    width: 100%;
+    margin-top: 50%;
+}
+
+footer {
+    font-family: 'Dosis', sans-serif;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 100px;
+}
